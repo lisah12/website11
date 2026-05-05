@@ -41,11 +41,11 @@ nav {
 
 header {
     background-color: #eadcff;
-    heght: calc(100vh - 70px);
+    height: calc(100vh - 70px);
     padding: 24px;
     display: flex;
     align-items: center;
-    justity-content: center;
+    justify-content: center;
 }
 h1 {
     font-size: 72px;
@@ -98,7 +98,7 @@ ABOUT
 */
 #about {
     padding: 48px 0;
-    background-color:f8ffdc;
+    background-color: #f8ffdc;
 }
 
 h2 {
@@ -114,8 +114,8 @@ h2 {
 }
 
 
-    .about__img--wrapper{
-           width : 40% 
+    .about__img--wrapper {
+           width : 40%; 
            padding: 0 24px;
         }
     
@@ -123,9 +123,9 @@ h2 {
             width: 100%;
         }
         
-    .section__description--wrapper{
+    .section__description--wrapper {
         width: 60%;
-        padding: 0 24px
+        padding: 0 24px;
         
     }
 
@@ -136,11 +136,13 @@ h2 {
 
     }
 
-    
-    /*
+/*
 
 DISCORD
 
 */
+ 
+#discord {
+ background-color: #cefeff;
 
-background-color: #cefeff;
+ }

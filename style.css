@@ -34,7 +34,7 @@ nav {
     height: 70px;
     display: flex;
     justify-content: space-between;
-    aligh-items: center;
+    align-items: center;
     padding: 0 16px;
     background-color: #cafdff;
 }
@@ -91,13 +91,23 @@ li {
     justify-content: center;
 }    
   
+
+
+#about,
+#discord,
+#contact, 
+footer {
+    padding: 48px 0;
+}
+        
+
+
 /*
 
 ABOUT
 
 */
-#about {
-    padding: 48px 0;
+ #about {
     background-color: #f8ffdc;
 }
 
@@ -117,6 +127,10 @@ h2 {
     .about__img--wrapper {
            width : 40%; 
            padding: 0 24px;
+        }
+        #discord .section__description > div { 
+            width: 60%;
+            padding: 0 24px;
         }
     
     img {
@@ -144,5 +158,71 @@ DISCORD
  
 #discord {
  background-color: #cefeff;
+   .discord__img--wrapper {
+    width: 30%;
+    padding: 0 24px;
+}
 
+.discord__img--wrapper img {
+    width: 100%;
+}
+
+#discord .section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
  }
+
+ 
+/*
+
+CONTACT
+
+*/
+
+contact {
+    background-color: #dce9ff;
+    
+
+}
+
+form { 
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+ input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px
+ }
+        
+/*
+
+Footer
+
+*/
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+ max-width: 480px;
+ margin-bottom: 16; 
+}
+
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__links {
+    padding: 0 16px;
+}
